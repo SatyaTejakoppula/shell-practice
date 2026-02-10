@@ -16,7 +16,7 @@ else
     echo "Installing nginx is Sucess"
 fi 
 
-Echo "Installing mysql"
+echo "Installing mysql"
 dnf install mysql -y
 
 if [ $? -ne o ]; then
